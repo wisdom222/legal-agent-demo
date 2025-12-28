@@ -3,4 +3,5 @@ agno
 openai
 qdrant-client
 duckduckgo-search
+ddgs
 pypdf
