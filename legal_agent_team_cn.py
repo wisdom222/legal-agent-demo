@@ -112,7 +112,7 @@ def main():
         st.header("🔑 API 配置")
    
         openai_key = st.text_input(
-            "OpenAI API Key",
+            "智增增 API Key",
             type="password",
             value=st.session_state.openai_api_key if st.session_state.openai_api_key else "",
             help="输入您的 OpenAI API 密钥"
@@ -397,4 +397,5 @@ def main():
         st.info("请上传法律文档以开始分析")
 
 if __name__ == "__main__":
+
     main()
