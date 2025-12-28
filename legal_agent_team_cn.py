@@ -115,7 +115,7 @@ def main():
             "智增增 API Key",
             type="password",
             value=st.session_state.openai_api_key if st.session_state.openai_api_key else "",
-            help="输入您的 OpenAI API 密钥"
+            help="输入您的 智增增 API 密钥"
         )
         if openai_key:
             st.session_state.openai_api_key = openai_key
@@ -399,3 +399,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
